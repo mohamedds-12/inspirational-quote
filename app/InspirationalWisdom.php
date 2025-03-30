@@ -18,6 +18,7 @@ class InspirationalWisdom
         Notification::title("Get inspired !")
             ->message($wisdom)
             ->event(ShowQuoteWindow::class)
+            
             ->show();
 
         return $wisdom;

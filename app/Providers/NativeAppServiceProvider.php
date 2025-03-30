@@ -14,9 +14,8 @@ class NativeAppServiceProvider implements ProvidesPhpIni
     public function boot(): void
     {
         Window::open()
-            ->showDevTools(false)
-            ->width(1200)
-            ->height(250);
+        ->width(900)
+        ->height(350);
     }
 
     /**

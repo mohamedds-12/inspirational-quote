@@ -6,14 +6,8 @@
         "build": "vite build"
     },
     "devDependencies": {
-        "axios": "^1.1.2",
-        "laravel-vite-plugin": "^0.8.0",
-        "vite": "^4.5.3"
-    },
-    "dependencies": {
-        "cross-env": "^7.0.3",
-        "electron-vite": "^2.2.0",
-        "fs-extra": "^11.2.0",
-        "yauzl": "^3.1.3"
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0",
+        "vite": "^5.0"
     }
 }
